@@ -1,0 +1,2 @@
+TEMPERATURE = 0
+TOP_P = 0.9
