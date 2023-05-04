@@ -9,9 +9,10 @@ Prompt Engineering For Different Tasks using Large Language Models
 
 ## I. Prompt Structure
 General Structure of prompts:
-`SYSTEM_PROMPT` -> `USER_PROMPT` -> `OUTPUT`
-- `SYSTEM_PROMPT`: Defines the overall context for the model to perform. For example, select the domain of which the Large Language Model is restricted to generate its outputs.
-- `USER_PROMPT`: Task Specific Instructions
+`SYSTEM/CONTEXT PROMPT` -> `USER PROMPT` -> `OUTPUT`
+- `SYSTEM/CONTEXT PROMPT`: Defines the overall context for the model to perform. Set behaviour of the Assistant without User awareness.
+- `USER PROMPT`: Task Specific Instructions, Questions from Users, etc
+- `ASSISTANT PROMPT`: Assistant (LLM Model) answer output. Use as previous response in sequential interactions (e.g. Chatbot)
 
 ## II. Techniques:
 ### 1. **Zero-shot Prompting**: Only the question is provided. No sample answer is provided to the LLM.

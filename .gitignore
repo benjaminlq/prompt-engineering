@@ -8,6 +8,7 @@ __pycache__/
 
 # Data and APIKEY
 auth/
+*.yaml
 
 # Distribution / packaging
 .Python
