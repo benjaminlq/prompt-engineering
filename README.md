@@ -1,4 +1,4 @@
-# Prompt Engineering on Large Language Models using LangChain framework
+# Prompt Engineering on Large Language Models
 Prompt Engineering For Different Tasks using Large Language Models
 
 ## References
