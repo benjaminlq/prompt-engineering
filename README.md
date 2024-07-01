@@ -90,7 +90,6 @@ Output JSON: <json with summary>
 $$ p_i = \frac{e^{z_i/temperature}}{\sum_j{e^{z_j/temperature}}} $$
 
 High temperature results in more random behaviour while low temperature results in less random behaviour. <br>
-At t = 0, **softmax == argmax**
 
 - `top-k`: Basically choose the top k words based on highest probability before applying probability distribution for sampling.
 - `top-p`: Nucleus sampling. Choose the smallest possible sets of words which gives cumulative probability > `top-p`. When p = 1 -> Choose all vocabulary.
